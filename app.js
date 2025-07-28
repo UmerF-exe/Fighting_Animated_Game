@@ -20,10 +20,6 @@ function moveChacha(type){
         chacha.src = "Images/chacha-forward.gif";
         }
         chachaForward = true;
-        // setTimeout(function (){
-        //     leo.src = "Images/leo.gif";
-        //     leoForward = false;
-        // }, 2000);
     }
     if(type === 'backward'){
         chachaForward = false;
@@ -35,16 +31,7 @@ function moveChacha(type){
             chacha.src = "Images/chacha-backward.gif";
         }
         chachaBackward = true;
-        // setTimeout(function (){
-        //     leo.src = "Images/leo.gif";
-        // }, 2000);
     }
-    // if(type === " "){
-    //     if(!chachaPower){
-    //         chacha.src = "Images/leo-power.gif";
-    //     }
-    //     chachaPower = true;
-    // }
 }
 function moveLeo(type){
     if(type === 'forward'){
@@ -55,10 +42,6 @@ function moveLeo(type){
         leo.src = "Images/leo-forward.gif";
         }
         leoForward = true;
-        // setTimeout(function (){
-        //     leo.src = "Images/leo.gif";
-        //     leoForward = false;
-        // }, 2000);
     }
     if(type === 'backward'){
         leoForward = false;
@@ -68,9 +51,6 @@ function moveLeo(type){
             leo.src = "Images/leo-backward.gif";
         }
         leoBackward = true;
-        // setTimeout(function (){
-        //     leo.src = "Images/leo.gif";
-        // }, 2000);
     }
     if(type === " "){
         if(!leoPower){
